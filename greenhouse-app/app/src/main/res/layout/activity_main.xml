@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chili_background_picture"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="310dp"
+        android:layout_height="506dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        app:columnCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+        <Button
+            android:id="@+id/chili1"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:text="Chili 1"
+            android:textColor="#000000"
+            android:textSize="16pt"
+            app:backgroundTint="#B3FFFFFF"
+            app:strokeColor="#020202" />
+
+        <Button
+            android:id="@+id/chili2"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:text="Chili 2"
+            android:textColor="#000000"
+            android:textSize="16pt"
+            app:backgroundTint="#B3FFFFFF" />
+
+        <Button
+            android:id="@+id/chili3"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:text="Chili 3"
+            android:textColor="#000000"
+            android:textSize="16pt"
+            app:backgroundTint="#B3FFFFFF" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
